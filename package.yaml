@@ -1,0 +1,35 @@
+name:                resume
+version:             0.1
+github:              "cycleke/resume"
+license:             AGPL-3
+author:              "cycleke"
+maintainer:          "cycleke@gmail.com"
+copyright:           "2021 cycleke"
+
+extra-source-files:
+- README.md
+
+# To avoid duplicated efforts in documentation and dealing with the
+# complications of embedding Haddock markup inside cabal files, it is
+# common to point users to the README.md file.
+description:         Please see the README on GitHub at <https://github.com/cycleke/resume#readme>
+
+dependencies:
+- base >= 4.7 && < 5
+- mtl
+
+library:
+  source-dirs: src
+
+executables:
+  resume-gen:
+    main:                Main.hs
+    source-dirs:         app
+    ghc-options:
+    - -O2
+    - -Wall
+    - -threaded
+    - -rtsopts
+    - -with-rtsopts=-N
+    dependencies:
+    - resume
