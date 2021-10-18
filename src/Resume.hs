@@ -5,10 +5,10 @@ import TeX
 basicInfo :: Resume
 basicInfo =
   paragraph
-    [ tex "name" "路遥柯" "Cycleke",
+    [ tex "name" "郭炼" "Lian Guo",
       pure "\\basicInfo{",
       pure $ "\\email{cycleke@gmail.com}" ++ period,
-      pure $ "\\phone{188xxxx8163}" ++ period,
+      pure $ "\\phone{18845638163}" ++ period,
       pure $ "\\github[cycleke]{https://github.com/cycleke/}" ++ period,
       pure "\\homepage[blog.cycleke.com]{https://blog.cycleke.com}",
       pure "}"

@@ -7,8 +7,6 @@ cabal-version: 1.12
 name:           resume
 version:        0.1
 description:    Please see the README on GitHub at <https://github.com/cycleke/resume#readme>
-homepage:       https://github.com/cycleke/resume#readme
-bug-reports:    https://github.com/cycleke/resume/issues
 author:         cycleke
 maintainer:     cycleke@gmail.com
 copyright:      2021 cycleke
@@ -17,10 +15,6 @@ license-file:   LICENSE
 build-type:     Simple
 extra-source-files:
     README.md
-
-source-repository head
-  type: git
-  location: https://github.com/cycleke/resume
 
 library
   exposed-modules:
